@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <header>
+    <div class="nav-div">
+        <img src="Pictures/logo.png" class="logo">
+
+        <h1 class="nav-head">My Website</h1>
+
+        <!-- Hamburger -->
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <!-- Nav Links -->
+        <ul id="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="bio page 1.html">Bio</a></li>
+        </ul>
+    </div>
+</header>
+    <section>
+        <div class="body">
+            <h2>Welcome to kola tech academy!</h2>
+            <p>We are excited to have you here as you take the first
+                step toward building valuable digital skills for
+                the future.Our school is dedicated to providing
+                high-quality training in technology helping you
+                grow your knowledge in areas such as coding ,
+                computer apllication, digital creativity. </p>
+            <p>Whether you are just starting or looking to improve your skills,we are here to guide and and support you
+                every step of the way</p>
+            <p>To get started, please fill out the registration form below with your correct details. This will help us
+                place you in the right program and ensure you recieve all the necessary information</p>
+            <p>We look forward to having you join our learning community!</p>
+        </div>
+    </section>
+
+
+    <form action="bio page 1.html" method="GET">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <div class="contain">
+                <label for="first_name">FirstName:</label>
+                <input type="text" placeholder="Enter name here" name="FirstName" required>
+            </div>
+            <br>
+            <div class="contain">
+                <label for="Middle_Name">MiddleName:</label>
+                <input type="text" placeholder="Enter name here">
+            </div>
+            <br>
+            <div class="contain">
+                <label for="sur_name">SurName:</label>
+                <input type="text" placeholder="Enter name here" name="SurName" required>
+            </div>
+            <br>
+            <div class="contain">
+                <label for="Age">Age:</label>
+                <input type="number" placeholder="Enter age here" age="Age" required>
+            </div>
+            <br>
+            <div class="contain">
+                <label for="gender">Gender: </label>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Rather Not Say</option>
+                    <option>Custom</option>
+                </select>
+            </div>
+            <br>
+            <div class="contain" id="Terms">
+                <input type="checkbox" class="checkbox">
+                <a href=" ">Terms and conditions</a>
+            </div>
+            <!-- <br> -->
+            <div class="contain">
+                <label for="Email">Email:</label>
+                <input type="Email" Email="Email" required>
+            </div>
+            <br>
+            <div class="contain">
+                <!-- Your HTML fields (give them ids) -->
+                <input type="password" id="password" placeholder="Enter Password">
+                <input type="password" id="confirm_password" placeholder="Re-Enter Password">
+                <span id="password_match_message" style="color: red; font-size: 0.9em;"></span>
+                <button type="submit" id="submitBtn" disabled="false">Submit</button>
+            </div>
+
+                <br>
+                <div class="contain">
+                    <label for="address">Enter Address: </label>
+                    <input type="text" placeholder="Enter house number and streetname" required>
+                </div>
+                <br>
+                <div class="contain">
+                    <label for="states">Select a State:</label>
+                    <select id="states" name="states">
+                        <option value="">--Select State--</option>
+                        <option value="Abia">Abia</option>
+                        <option value="Adamawa">Adamawa</option>
+                        <option value="Akwa Ibom">Akwa Ibom</option>
+                        <option value="Anambra">Anambra</option>
+                        <option value="Bauchi">Bauchi</option>
+                        <option value="Bayelsa">Bayelsa</option>
+                        <option value="Benue">Benue</option>
+                        <option value="Borno">Borno</option>
+                        <option value="Cross River">Cross River</option>
+                        <option value="Delta">Delta</option>
+                        <option value="Ebonyi">Ebonyi</option>
+                        <option value="Edo">Edo</option>
+                        <option value="Ekiti">Ekiti</option>
+                        <option value="Enugu">Enugu</option>
+                        <option value="FCT">Federal Capital Territory (Abuja)</option>
+                        <option value="Gombe">Gombe</option>
+                        <option value="Imo">Imo</option>
+                        <option value="Jigawa">Jigawa</option>
+                        <option value="Kaduna">Kaduna</option>
+                        <option value="Kano">Kano</option>
+                        <option value="Katsina">Katsina</option>
+                        <option value="Kebbi">Kebbi</option>
+                        <option value="Kogi">Kogi</option>
+                        <option value="Kwara">Kwara</option>
+                        <option value="Lagos">Lagos</option>
+                        <option value="Nasarawa">Nasarawa</option>
+                        <option value="Niger">Niger</option>
+                        <option value="Ogun">Ogun</option>
+                        <option value="Ondo">Ondo</option>
+                        <option value="Osun">Osun</option>
+                        <option value="Oyo">Oyo</option>
+                        <option value="Plateau">Plateau</option>
+                        <option value="Rivers">Rivers</option>
+                        <option value="Sokoto">Sokoto</option>
+                        <option value="Taraba">Taraba</option>
+                        <option value="Yobe">Yobe</option>
+                        <option value="Zamfara">Zamfara</option>
+                    </select>
+                </div>
+                <br>
+                <div class="contain">
+                    <label for="countries">Select a country:</label>
+                    <select id="countries" name="countries">
+                        <option value="">--Select a country--</option>
+                        <option value="afghanistan">Afghanistan</option>
+                        <option value="albania">Albania</option>
+                        <option value="algeria">Algeria</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="australia">Australia</option>
+                        <option value="austria">Austria</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="belgium">Belgium</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="canada">Canada</option>
+                        <option value="china">China</option>
+                        <option value="denmark">Denmark</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="finland">Finland</option>
+                        <option value="france">France</option>
+                        <option value="germany">Germany</option>
+                        <option value="ghana">Ghana</option>
+                        <option value="india">India</option>
+                        <option value="indonesia">Indonesia</option>
+                        <option value="italy">Italy</option>
+                        <option value="japan">Japan</option>
+                        <option value="kenya">Kenya</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="netherlands">Netherlands</option>
+                        <option value="nigeria">Nigeria</option>
+                        <option value="norway">Norway</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="philippines">Philippines</option>
+                        <option value="poland">Poland</option>
+                        <option value="portugal">Portugal</option>
+                        <option value="qatar">Qatar</option>
+                        <option value="russia">Russia</option>
+                        <option value="saudi_arabia">Saudi Arabia</option>
+                        <option value="south_africa">South Africa</option>
+                        <option value="spain">Spain</option>
+                        <option value="sweden">Sweden</option>
+                        <option value="switzerland">Switzerland</option>
+                        <option value="turkey">Turkey</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="usa">United States</option>
+                        <option value="vietnam">Vietnam</option>
+                        <option value="zambia">Zambia</option>
+                        <option value="zimbabwe">Zimbabwe</option>
+                    </select>
+                </div>
+                <br>
+                <div class="contain">
+                    <label for="PhoneNumber">PhoneNumber:</label>
+                    <input type="PhoneNumber">
+                </div>
+                <br>
+                <div class="contain">
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+        </fieldset>
+    </form>
+
+    <script>
+    const toggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    toggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+</script>
+</body>
+
+</html>
